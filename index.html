@@ -14,7 +14,7 @@
 
 </head>
 <body>
-    <section class="hero">
+    <section class="hero" id="Home">
         <div class="main-widht">
             <header>
                 <div class="logo">
@@ -31,11 +31,11 @@
                     </div>
 
                     <ul class="nav-list">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#Home">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Trophies</a></li>
                         <li><a href="#">Awards</a></li>
-                        <li class="btn"><a href="#">Social Media</a></li>
+                        <li class="btn"><a href="https://www.youtube.com/watch?v=XWWM4jycABI" target="_blank">Highlights</a></li>
                     </ul>
                 </nav>
             </header>
@@ -43,26 +43,41 @@
             <div class="container">
                 <div class="hero-text">
                     <h3>Hi, There!</h3>
-                    <h1>I am <span>Cristiano Ronaldo</span></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, temporibus est eos recusandae quaerat nulla animi cupiditate ullam distinctio, molestiae eveniet voluptatibus. Eum amet reiciendis recusandae distinctio qui vitae magnam.</p>
+                    <h1>I am <span class="input"></span></h1>
+                    <p>I'm Cristiano Ronaldo, a celebrated Portuguese footballer, known for my exceptional skills and goal-scoring ability. I've played for renowned clubs like Manchester United, Real Madrid, and Juventus. Multiple FIFA Ballon d'Or awards and my influence on the sport have made me one of the world's most famous athletes.</p>
                 
                 <div class="social">
-                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/Cristiano?locale=pt_BR" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com/Cristiano" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/cristiano/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <!----<a href="#"></a>
                     <a href="#"></a>---->
                 </div>
-                <button type="button">More About Me</button>
+                <button type="button" onclick="window.open('https://www.youtube.com/watch?v=NmH4tgirPZQ')">More About Me</button>
             </div>
                 <div class="bottom">
-                    <p>© 2023 Tramontin - All Rights Reserved</p>
+                    <!--<p>© 2023 Tramontin - All Rights Reserved</p>-->
                 </div>
             
             </div>
         </div>
 
     </section>
+    <section>
+
+    </section>
     
+    <script type="text/javascript" src="script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".input", {
+            strings:["Cristiano Ronaldo.", "A Man.", "A Machine.", "A Caged Beast.", "The GOAT."],
+            typeSpeed: 80,
+            backSpeed: 70,
+            loop: true
+        });
+    </script>
 </body>
 </html>
