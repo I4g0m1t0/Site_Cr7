@@ -91,7 +91,7 @@ nav .nav-list li a {
 }
 
 nav .nav-list li:not(:last-child) a:hover{
-    color: #0D6938;
+    color: #eee;
     transition: .4s;
 }
 
